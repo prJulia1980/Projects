@@ -134,5 +134,5 @@
 
 ## 4. Ссылки на документы
 
-*   [Спецификация требований к ПО Chatty 2.0](https://github.com/prJulia1980/Projects/blob/main/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%BA%20%D0%9F%D0%9E%20Chatty%202.0.docx)  
+*   [Спецификация требований к ПО Chatty 2.0](https://docs.google.com/document/d/1gt3lM1q50nzIL4HYI1StBsSw1JJOSVrQ/edit?usp=drive_link&ouid=110366814820056538789&rtpof=true&sd=true)
 *   [Обновленная Use Case Diagram UML](https://github.com/prJulia1980/Projects/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg)
