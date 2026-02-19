@@ -21,7 +21,7 @@
 
 Процессы смоделированы с использованием диаграммы потоков данных (DFD).
 
-![Обновленная диаграмма UML]()
+![Обновленная диаграмма UML](https://drive.google.com/file/d/1MX9sSNTxi8zHI8esZZThGKKP9147AbQ5/view?usp=drive_link)
 <p align="center">Рис 1. DFD контекстного уровня </p>
 
 ![Обновленная диаграмма UML]()
