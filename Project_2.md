@@ -72,3 +72,4 @@
 
 ## Ссылки на документы
 
+*   [Спецификация требований к ПО Накарабине](https://docs.google.com/document/d/1MVJ791IJCpLoRY-4whoGoNxpYun0-Al-tDLWzEPUhMU/edit?usp=drive_link)
