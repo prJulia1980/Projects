@@ -246,36 +246,36 @@
 {
   "id": 205,
   "type": "series",
-  "title": "Загадка города Эльдорадо",
-  "description": "Географа подозревают в написании книги, которую он не писал. Герой знакомится с журналисткой мексиканской газеты Глорией, вместе они пытаются раскрыть тайну мифиечкого города.",
-  "imageUrl": "https://otium.imagestorage.ru/MysteryOfEldorado.img",
-  "previewUrl": "https://otium.previewstorage.ru/MysteryOfEldorado.mov",
-  "recordUrl": "https://otium.recordstorage.ru/MysteryOfEldorado.mov",
+  "title":  "Индийский океан и я",
+  "description":  "Погрузитесь в веселые приключения на берегу Индийского океана, где дети вместе с местными животными учатся ценить природу и дружбу.",
+  "imageUrl": "https://otium.imagestorage.ru/IndianOcean&I.img",
+  "previewUrl": "https://otium.previewstorage.ru/IndianOcean&I.mov",
+  "recordUrl": "https://otium.recordstorage.ru/IndianOcean&I.mov",
   "genre": [
-    "action"
+    "kids"
   ],
   "recommended": true,
   "details": {
-    "yearOfIssue": "2007",
-    "episodesCount": 12,
+    "yearOfIssue": "2015",
+    "episodesCount": 4,
     "country": [
-      "Великобритания, Турция, США"
+      "Индонезия"
     ],
-    "ageRate": "12+"
+    "ageRate": "6+"
   },
   "language": {
     "original": [
-      "английский, турецкий"
+      "бахаса"
     ],
     "sound": [
       "русский, английский"
     ],
     "subtitle": [
-      "русский, английский, турецкий"
+      "русский, английский, бахаса"
     ]
   },
-  "rating": 6.5,
-  "criticsRating": 7.4
+  "rating": 9.4,
+  "criticsRating": 8.0
 }
 
 ```
@@ -377,11 +377,11 @@
 |-----------------|--------|-----------------|---------------------------------------------------------------------|-----------------|
 | `criticsRating` | `number` | Необязателен   | Рейтинг кинокритиков, возможные значения от 0 до 10.               |Изменения не требуются | 
 
-#### 3.2. В ответ {{WebServer}}/​​content/list добавить новое поле criticsRating. 
+#### 3.2. В ответ {{WebServer}}/​​content/details добавить новое поле criticsRating. 
 
 **Тип метода:** GET
 
-**URL запроса:** `/content/list`
+**URL запроса:** `/content/details`
 
 **Параметры запроса:** -
 
@@ -394,46 +394,37 @@
 ```json
 [
   {
-    "id": 104,
+    "id": 204,
     "type": "film",
-    "title": "Ребус Атлантиды",
-    "description": "Археолога подозревают в преступлении, которого он не совершал. Герой знакомится с историком турецкой полиции Шехер Джан, вместе они пытаются раскрыть тайну.",
-    "imageUrl": "https://otium.imagestorage.ru/RebusOfAtlantis.img",
-    "previewUrl": "https://otium.previewstorage.ru/RebusOfAtlantis.mov",
-    "recordUrl": "https://otium.recordstorage.ru/RebusOfAtlantis.mov",
+    "title": "Кухня за гранью",
+    "description": "Приготовьтесь к горячим соревнованиям, взрывам вкуса и кулинарным искушениям в этом захватывающем реалити-шоу, где повара-любители сражаются за звание гурманского чемпиона.",
+    "imageUrl": "https://otium.imagestorage.ru/KitchenOutOfBoarders.img",
+    "previewUrl": "https://otium.previewstorage.ru/KitchenOutOfBoarders.mov",
+    "recordUrl": "https://otium.recordstorage.ru/KitchenOutOfBoarders.mov",
     "genre": [
-      "thriller, mystery"
+       "reality"
     ],
-    "recommended": true,
+    "recommended": false,
     "details": {
-      "yearOfIssue": "2007",
-      "duration": 159,
-      "country": [
-        "Великобритания, Турция, США"
+      "yearOfIssue": "2009",
+      "episodesCount": 34,
+       "country": [
+        "Великобритания"
       ],
       "ageRate": "12+"
     },
     "language": {
       "original": [
-        "английский, турецкий"
+        "английский"
       ],
       "sound": [
         "русский, английский"
       ],
       "subtitle": [
-        "русский, английский, турецкий"
+        "русский, английский"
       ]
-    },
-    "team": {
-      "cast": [
-        "Джон Джэксон, Айше Болат"
-      ],
-      "dubbingTeam": [
-        null
-      ]
-    },
-    "rating": 6.5,
-    "criticsRating": 7.4
+      "rating": 7.7,
+    "criticsRating": 7.3
   }
 ]
 ```
@@ -441,67 +432,4 @@
 |-----------------|--------|-----------------|---------------------------------------------------------------------|-----------------|
 | `criticsRating` | `number` | Необязателен   | Рейтинг кинокритиков, возможные значения от 0 до 10.               |Изменения не требуются | 
 
-#### 3.3. В ответ {{WebServer}}/content/details добавить новое поле criticsRating.
-
-**Тип метода:** GET
-
-**URL запроса:** `/content/details`
-
-**Параметры запроса:** -
-
-**Пример запроса:** `https://2ee4902e-6893-4bf2-9b6f-88b9f5fcb78a.mock.pstmn.io/content/details?type=film&id=104`
-
-**Элементы тела запроса:** -
-
-**Пример ответа:**
-
-```json
-[
-  {
-    "id": "104",
-    "type": "film",
-    "title": "Ребус Атлантиды",
-    "description": "Археолога подозревают в преступлении, которого он не совершал. Герой знакомится с историком турецкой полиции Шехер Джан, вместе они пытаются раскрыть тайну.",
-    "imageUrl": "https://otium.imagestorage.ru/RebusOfAtlantis.img",
-    "previewUrl": "https://otium.previewstorage.ru/RebusOfAtlantis.mov",
-    "recordUrl": "https://otium.recordstorage.ru/RebusOfAtlantis.mov",
-    "genre": [
-      "thriller, mystery"
-    ],
-    "recommended": true,
-    "details": {
-      "yearOfIssue": "2007",
-      "duration": 159,
-      "country": [
-        "Великобритания, Турция, США"
-      ],
-      "ageRate": "12+"
-    },
-    "language": {
-      "original": [
-        "английский, турецкий"
-      ],
-      "sound": [
-        "русский, английский"
-      ],
-      "subtitle": [
-        "русский, английский, турецкий"
-      ]
-    },
-    "team": {
-      "cast": [
-        "Джон Джэксон, Айше Болат"
-      ],
-      "dubbingTeam": [
-        null
-      ]
-    },
-    "rating": 6.5,
-    "criticsRating": 7.4
-  }
-]
-```
-| Элементы ответа | Тип    | Обязательность | Описание                                                              |Ошибки
-|-----------------|--------|-----------------|---------------------------------------------------------------------|-----------------|
-| `criticsRating` | `number` | Необязателен   | Рейтинг кинокритиков, возможные значения от 0 до 10.               |Изменения не требуются | 
 
