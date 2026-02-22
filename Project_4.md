@@ -209,17 +209,17 @@
   {
     "id": 205,
     "type": "series",
-    "title": "Загадка города Эльдорадо",
-    "description": "Географа подозревают в написании книги, которую он не писал. Герой знакомится с журналисткой мексиканской газеты Глорией, вместе они пытаются раскрыть тайну мифического города.",
-    "imageUrl": "https://otium.imagestorage.ru/MysteryOfEldorado.img",
+    "title":  "Индийский океан и я",
+    "description":  "Погрузитесь в веселые приключения на берегу Индийского океана, где дети вместе с местными животными учатся ценить природу и дружбу.",
+    "imageUrl": "https://otium.imagestorage.ru/IndianOcean&I.img",
     "previewUrl": "https://otium.previewstorage.ru/MysteryOfEldorado.mov",
-    "recordUrl": "https://otium.recordstorage.ru/MysteryOfEldorado.mov",
+    "recordUrl": "https://otium.recordstorage.ru/IndianOcean&I.mov",
     "genre": [
-      "action"
+      "kids"
     ],
     "recommended": true,
-    "rating": 6.5,
-    "criticsRating": 7.4
+    "rating": 9.4,
+    "criticsRating": 8.0
   }
 ]
 ```
