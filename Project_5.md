@@ -11,7 +11,7 @@
 
 ## Анализ интервью
 
-Провела анализ интервью с [заинтересованными лицами](https://drive.google.com/file/d/1FLzAkxCIC_647qxxnjs5Uw2lSdb0PBdS/view?usp=drive_link). Выделила из интервью заказчиком и пользователями функции, которые необходимы в первой итерации MVP.
+Провела анализ интервью с [заинтересованными лицами](https://docs.google.com/document/d/14OBmhoI8mytNqYbPdxtnz_pH8fQixzX2/edit?usp=drive_link&ouid=110366814820056538789&rtpof=true&sd=true). Выделила из интервью заказчиком и пользователями функции, которые необходимы в первой итерации MVP.
 
 <details>
   <summary><b>Обязательные функции MVP</b></summary>
