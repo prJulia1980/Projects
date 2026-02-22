@@ -105,7 +105,7 @@
 
 ## Карта пользовательских историй и MVP
 
-Составила [User Story Map (USM)](https://drive.google.com/file/d/1pjenmFmjse8yNjSuFLsbH9Q2RzbcbRyn/view?usp=drive_link) для приложения умного дома, включающая User Stories, сформулированные в соответствии с принципами INVEST. Пользовательские истории, вошедшие в MVP, дополнены критериями и сценариями приемки, написанными на языке Gherkin.
+Составила [User Story Map (USM)]([https://drive.google.com/file/d/1pjenmFmjse8yNjSuFLsbH9Q2RzbcbRyn/view?usp=drive_link](https://miro.com/welcomeonboard/Q2xDWlRpM1JoOHRNa0t3cURRMlgwM2JaQTZsdEF5S2cxaFEvKzJWWGN6bExFZnZsdThyb09VbkJCWlllT2hwYTV2VTZPY1h1ZFNyd1k0THdoMmtudXFoOHloVzlCbitpeUY5YU5henpQTEh5RE9lMzEwR0QwbnNFSW5lc3FRT2NnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=83954567234)) для приложения умного дома, включающая User Stories, сформулированные в соответствии с принципами INVEST. Пользовательские истории, вошедшие в MVP, дополнены критериями и сценариями приемки, написанными на языке Gherkin.
 
 
 ## DFD контекстного и логического уровня
